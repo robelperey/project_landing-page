@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.hero {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #1f2937;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+nav ul {
+  width: 80%;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+nav ul li:nth-child(1) {
+  margin-right: auto;
+}
+
+.header {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.banner h1 {
+  margin-bottom: 1rem;
+}
+
+.banner {
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.banner p {
+  margin-bottom: 1rem;
+}
+
+.banner button {
+  background-color: #3882f6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 32px;
+}
+
+.banner-img {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header-itemn {
+  flex: 1;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 1.5rem;
+}
+
+.information h2 {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.info-img-container {
+  display: flex;
+  width: 600px;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.some-img {
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 8px;
+}
+
+.img p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e5e7eb;
+  font-size: 1.5rem;
+}
+
+blockquote {
+  width: 500px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.cta-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 5px;
+  padding: 2rem 4rem;
+  display: flex;
+}
+
+.cta-text {
+  flex: 2;
+}
+
+.cta-btn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-btn button {
+  padding: 4px 16px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1f2937;
+  color: #fff;
+}
