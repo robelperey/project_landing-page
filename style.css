@@ -36,7 +36,7 @@ nav ul li:nth-child(1) {
 
 .header {
   width: 80%;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@ nav ul li:nth-child(1) {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   gap: 1.5rem;
 }
 
@@ -121,7 +121,7 @@ nav ul li:nth-child(1) {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #e5e7eb;
   font-size: 1.5rem;
 }
@@ -141,7 +141,7 @@ cite {
 }
 
 .cta-container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
