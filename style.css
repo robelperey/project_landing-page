@@ -167,6 +167,10 @@ cite {
 }
 
 .cta-btn button {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #3882f6;
+  border-radius: 5px;
   padding: 4px 16px;
 }
 
