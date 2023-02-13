@@ -85,6 +85,7 @@ nav ul li:nth-child(1) {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  border-radius: 10px;
 }
 
 .information {
@@ -146,6 +147,7 @@ cite {
   text-align: right;
   font-style: normal;
   font-weight: 900;
+  font-size: 2.5rem;
   padding: 1rem;
 }
 
